@@ -43,3 +43,10 @@ vagrant halt
 vagrant up
 
 ```
+
+## scp
+```
+vagrant scp ../automation/automate.sh controller:/home/vagrant/
+Warning: Permanently added '[127.0.0.1]:2222' (ECDSA) to the list of known hosts.
+automate.sh                                                                                                                                                                                                 100% 8573     4.4MB/s   00:00
+```
